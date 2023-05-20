@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Assets/js/main.js" defer></script>
+    <link rel="stylesheet" href="Assets/css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.all.min.js"></script>
+</head>
+<body>
+    <div class="content">
+        <div class="title">
+            <h2>{Taller 2 => Ejercicios Php}</h2>
+        </div>
+        <div class="exercises">
+            <div class="exercise">
+                <div class="about">
+                    <h3>Ejercicio 1</h3>
+                    <p>Construir el algoritmo para un programa que ingrese tres
+                        notas de un alumno, si el promedio es menor o igual a 3.9
+                        mostrar un mensaje "Estudie“, de lo contrario un mensaje que
+                        diga "becado"</p>
+                </div>
+                <div class="result">
+                    <form id="myFormularioEjer1">
+                        <input type="text" name="nota"  value="4.5" required placeholder="Ingrese la nota 1"><br>
+                        <input type="text" name="nota2" value="3.9" pattern="[0-9-.]+" required placeholder="Ingrese la nota 2"><br>
+                        <input type="text" name="nota3" value="4.5" pattern="[0-9-.]+" required placeholder="Ingrese la nota 3"><br>
+                        <input type="submit" class="btn" value="Enviar">
+                   </form>
+                   <div class="resultado" id="resultEjer1">
+                        
+                   </div>
+                </div>
+            </div>
+            <div class="exercise">
+                <div class="about">
+                    <h3>Ejercicio 2</h3>
+                    <p>Dado un número indicar si es par o impar y si es mayor de 10.</p>
+                </div>
+                <div class="result">
+                    <form id="myFormularioEjer2">
+                        <input type="text" name="numero" pattern="[0-9-.]+" required placeholder="Ingrese el digito"><br>
+                        <input type="submit" class="btn" value="Enviar">
+                   </form>
+                   <div id="resultEjer2">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+   
+</body>
+</html>

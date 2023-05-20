@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Heebo:wght@400;500;600&display=swap');
+/*font-family: 'Barlow', sans-serif;
+font-family: 'Heebo', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+body{
+    background-color: #FAFAFA;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    max-width: 1800px;
+}
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title h2{
+    font-family: 'Barlow', sans-serif;
+}
+.exercises{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.exercise{
+    margin: 20px 30px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 5px 15px #f2f2f2;
+    padding: 30px 40px;
+    transition: all ease-in-out 0.5s;
+}
+.exercise:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 15px #ccc;
+}
+.exercise .about{
+    width: 200px;
+}
+.exercise .about h3{
+    font-size: 20px;
+    text-align: center;
+}
+.exercise .about p{
+    font-size: 16px;
+    text-align: justify;
+}
+.exercise .result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    width: 100%;
+    height: 30px;
+    padding: 10px 0;
+}
+.btn{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5B041;
+    transition: all ease-in-out 0.1s;
+}
+.btn:hover{
+    background-color: #e79513;
+    cursor: pointer;
+}
+.resultado{
+    width: 100%;
+    margin-top: 10px;
+}
+.result table{
+    width: 100%;
+}
+tr td{
+    text-align: center;
+}
+.clasificacion-reprobo{
+    background-color: red;
+    color: white;
+}
+.clasificacion-aprobo{
+    width: 100%;
+    background-color: green;
+    color: white;
+}
+#resultEjer2{
+    width: 100%;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+}
